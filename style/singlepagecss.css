@@ -1,0 +1,116 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  .stt {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: rgb(128, 128, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+    }
+    .stt:hover {
+    opacity: 0.8;
+    }
+
+    .stt:focus {
+      opacity: 0.9;
+    }
+
+    .stt:active {
+      opacity: 1;
+    }
+    .single-content{
+      border:;
+      background:white;
+      padding:20px 50px;
+      font-size:1.1em;
+
+    }
+    .clearfix::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.ccontent{
+  width:95%;
+  margin:40px auto 15px 40px;
+  border:1px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .main-content{
+padding-top:70px;
+  width:70%;
+  float:left;
+  border:1px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .main-content .single{
+ background:white;
+ padding:20px 50px;
+ font-size:1.1em;
+ border-radius:5px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .main-content .single .post-title{
+text-align:center;
+margin-bottom:40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .main-content .post{
+  width:95%;
+  height:270px;
+  margin:10px;
+  border-radius:5px;
+  background:white;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .popular .post{
+
+border-top:1px solid #e0e0e0;
+margin-top:10px;
+padding-top:10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .popular .post img{
+height:60px;
+width:75px;
+float:left;
+margin-right:10px;
+}
+.ccontent .sidebar{
+padding-top:70px;
+border:1px;
+width:30%;
+float:left;
+height:300px;
+}
+.ccontent .sidebar .single{
+
+padding:0px 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .sidebar .section{
+border:1px solid #e0e0e0;
+background:white;
+padding:20px;
+border-radius:5px;
+margin-bottom:20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ccontent .sidebar .section-title{
+margin:10px 0px 10px 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog-text {
+      margin-top: 10px;
+      width: 90%;
+      height: 200px;
+      overflow-y: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
